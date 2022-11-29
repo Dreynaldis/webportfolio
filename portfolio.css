@@ -1,0 +1,131 @@
+html {
+  font-family: Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+.header {
+  background-color: #1f203a;
+  height: 100px;
+}
+
+.header-container {
+  width: 90%;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.header-logo {
+  width: 95%;
+}
+.header-logo img {
+  width: 56px;
+  width: 64px;
+  margin-top: 20px;
+}
+
+.header-menu {
+  margin-top: 10px;
+}
+.menubar {
+  width: 35px;
+  height: 5px;
+  background-color: black;
+  margin: 6px 0;
+  filter: invert(100%);
+}
+
+/* 
+section head shot
+*/
+
+.head-shot {
+  height: auto;
+
+  padding-bottom: 30px;
+}
+
+.head {
+  background: #f2f2f2;
+  margin-bottom: 80px;
+}
+.head img {
+  width: 422px;
+  height: 422px;
+  border-radius: 50%;
+  border: 8px solid white;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+  top: 60px;
+}
+
+.intro-head {
+  margin-top: 60px auto;
+  text-align: center;
+  font-size: 32px;
+}
+
+.intro-desc {
+  width: 40%;
+  margin: 0px auto 50px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.intro-desc p {
+  margin-bottom: 40px;
+}
+
+.intro-desc a {
+  border-style: none none solid;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 30px auto 60px;
+  border-width: 2px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+/* 
+introduction
+*/
+
+.introduction {
+  height: auto;
+  padding: 60px auto;
+}
+.intro-grey {
+  background-color: #e5e5e5;
+  position: relative;
+}
+.intro-white {
+  background-color: #ffffff;
+  display: block;
+  position: absolute;
+  margin-top: 0;
+  margin-bottom: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 65%;
+}
+.card-container {
+  width: 1140px;
+}
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.card img {
+  height: 590px;
+  overflow: hidden;
+}
