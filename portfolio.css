@@ -45,7 +45,9 @@ h2 {
 }
 
 /* 
+-----------------
 section head shot
+-----------------
 */
 
 .head-shot {
@@ -87,7 +89,7 @@ section head shot
   margin-bottom: 40px;
 }
 
-.intro-desc a {
+.intro-read {
   border-style: none none solid;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -98,7 +100,9 @@ section head shot
 }
 
 /* 
+------------
 introduction
+------------
 */
 
 section {
@@ -168,7 +172,9 @@ a {
 }
 
 /* 
+----------------
 we build digital
+----------------
 */
 
 .card h1 {
@@ -192,7 +198,7 @@ we build digital
   width: 150px;
   height: 45px;
   background: #ffa54d;
-  font-size: 14px;
+  font-size: 16px;
   text-decoration: none;
   font-weight: 700;
   letter-spacing: 2px;
@@ -202,4 +208,224 @@ we build digital
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+
+.readdigital:hover {
+  background: #f09b42;
+}
+/* 
+---------------
+inspire section
+---------------
+*/
+
+.border {
+  box-sizing: border-box;
+  /* position: relative; */
+  border-style: solid;
+  border-width: 6px;
+  border-color: black;
+  border-right-width: 0;
+  border-left-width: 0;
+  border-bottom-width: 0;
+  height: 6px;
+  transform-origin: left center;
+  width: 60%;
+  margin: 60px auto 0;
+}
+
+.h2design {
+  font-family: "PT Sans", sans-serif !important;
+  margin: 46px 229px 0px;
+  font-size: 48px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+.downarrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto 20px;
+}
+.downarrow img {
+  width: 64px;
+  height: 64px;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  margin-top: 33px;
+  margin-bottom: 66px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: block;
+}
+
+/* 
+-------------------
+portfolio grid card
+-------------------
+*/
+.portfoliogrid {
+  padding-top: 60px;
+}
+.card-gallery {
+  display: grid;
+  gap: 0px;
+  grid-template-columns: repeat(3, auto);
+  grid-auto-rows: 1fr;
+  /* grid-template-rows: 1fr; */
+  min-height: 100%;
+}
+
+.card-grid {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+.card-grid img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  /* position: absolute; */
+
+  min-height: 100%;
+}
+
+.card-text {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: #ffa54d;
+  opacity: 0;
+}
+
+.card-text h2 {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-top: 50%;
+  font-weight: 700;
+}
+
+.card-text h2 {
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+}
+
+.card-text:hover {
+  opacity: 100%;
+  transition: all 500ms ease;
+}
+
+.card-footer {
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  margin: 0 auto 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-footer .readdigital {
+  margin: 0 auto 30px;
+  width: 170px;
+}
+
+.pright-container {
+  padding: 30px 30px 30px 160px;
+  height: auto;
+}
+.prightalign {
+  margin: 230px 0 0 0;
+  text-align: right;
+}
+
+#viscom p {
+  line-height: 2;
+  font-family: "Open Sans", sans-serif;
+}
+#viscom .card {
+  height: auto;
+}
+
+/* 
+------
+footer
+------
+*/
+
+.footer {
+  margin-top: 40px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(../portfolio/asset/mountain.jpg);
+  min-height: 400px;
+  background-position: 50% 50%;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
+  /* padding: 40px auto; */
+  display: flex;
+}
+
+.note-container {
+  margin: 60px auto 0;
+  justify-content: center;
+  align-items: center;
+}
+.note-container p {
+  width: 670px;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  margin: 20px auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.soc-fb {
+  width: 48px;
+  height: 48px;
+  filter: invert(100%);
+  margin: 40px 20px 20px 20px;
+}
+
+.soc-twit {
+  filter: invert(100%);
+  width: 48px;
+  height: 48px;
+  margin: 40px 20px 20px 20px;
+}
+.soc-insta {
+  filter: invert(100%);
+  width: 48px;
+  height: 48px;
+  margin: 40px 20px 20px 20px;
+}
+.soc-linked {
+  filter: invert(100%);
+  width: 48px;
+  height: 48px;
+  margin: 40px 20px 20px 20px;
+}
+.soc-pint {
+  filter: invert(100%);
+  width: 48px;
+  height: 48px;
+  margin: 40px 20px 20px 20px;
 }
