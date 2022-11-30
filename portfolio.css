@@ -1,5 +1,5 @@
 html {
-  font-family: Helvetica, sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -8,6 +8,10 @@ body {
   background-color: white;
 }
 
+h2 {
+  font-weight: 300;
+  letter-spacing: 4px;
+}
 .header {
   background-color: #1f203a;
   height: 100px;
@@ -97,7 +101,7 @@ section head shot
 introduction
 */
 
-.introduction {
+section {
   height: auto;
   padding: 60px auto;
 }
@@ -118,14 +122,84 @@ introduction
 }
 .card-container {
   width: 1140px;
+  display: flex;
+  margin: auto;
 }
 .card {
   position: relative;
-  display: flex;
   flex-direction: row;
+  width: 50%;
+  padding: 30px;
 }
 
 .card img {
   height: 590px;
+  width: 100%;
   overflow: hidden;
+}
+
+.card h2 {
+  font-size: 45px;
+}
+
+.card a:link {
+  color: black;
+}
+
+.pfree {
+  margin: 35px 18px 40px 0px;
+}
+.readbutton {
+  width: 170px;
+  height: 45px;
+  border: solid black;
+  background: transparent;
+  font-size: 14px;
+  padding: 10px 45px;
+  margin: 35px auto 0 0;
+  text-decoration: none;
+  font-weight: 100;
+  border-width: 2px;
+}
+
+.readbutton:hover {
+  border-width: 0px;
+  transition: all;
+}
+
+/* 
+we build digital
+*/
+
+.card h1 {
+  font-size: 130px;
+  font-weight: 300;
+  margin: 20px 0 0;
+  text-align: right;
+  line-height: 1.1;
+  padding-top: 12px;
+}
+
+.p-container {
+  padding: 30px 164px 30px 30px;
+  margin-top: 170px;
+  margin-bottom: 100px;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+}
+
+.readdigital {
+  width: 150px;
+  height: 45px;
+  background: #ffa54d;
+  font-size: 14px;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
